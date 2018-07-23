@@ -46,6 +46,6 @@ sentence = "Astounding aardvarks, arguably an ancient animal, always ate apples 
 
 # Swap all `A` for `O`, as well as all `a` for `o`. You need to chain `gsub`s.
 
-sentence = sentence.gsub(/[aoAO]/, 'a' => o, 'o' => 'a') # Add your gsub chain here
+sentence = sentence.gsub(/[aA]/, 'a' => o, 'A' => 'O') # Add your gsub chain here
 
 puts sentence
